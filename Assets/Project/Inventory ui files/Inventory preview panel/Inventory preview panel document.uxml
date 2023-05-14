@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20common%20styles.uss?fileID=7433441132597879392&amp;guid=1d8c92ea9b8ca56428f0aa47d6c12cad&amp;type=3#Inventory common styles" />
+    <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20preview%20panel/Inventory%20preview%20panel%20styles.uss?fileID=7433441132597879392&amp;guid=01210f3a3cbd8254bb0a2c6a0b47fe4d&amp;type=3#Inventory preview panel styles" />
+    <ui:VisualElement name="root" class="rounded-borders preview-root inventory-text" style="height: 720px; justify-content: space-around;">
+        <ui:VisualElement name="preview" class="preview-padding preview">
+            <ui:Image name="preview-image" class="preview-image" />
+        </ui:VisualElement>
+        <ui:VisualElement name="info" class="preview-padding info" style="flex-grow: 1;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,41 @@
+.inventory-text {
+    font-size: var(--inventory-text-size);
+    color: var(--inventory-text-color);
+    -unity-font-definition: url('project://database/Assets/Project/Fonts/IMMORTAL%20SDF.asset?fileID=11400000&guid=2f2cc5524906e5d40bd11b13b45acfe3&type=2#IMMORTAL SDF');
+    -unity-font: url('project://database/Assets/Project/Fonts/IMMORTAL.ttf?fileID=12800000&guid=c4c1570a417e62a4299b7843e94e2644&type=3#IMMORTAL');
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: var(--inventory-contrast-primary);
+}
+
+.inventory-text-background {
+    background-color: var(--inventory-background-secondary);
+    padding-left: 2px;
+    padding-right: 2px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.rounded-borders {
+    border-left-color: var(--inventory-contrast-primary);
+    border-right-color: var(--inventory-contrast-primary);
+    border-top-color: var(--inventory-contrast-primary);
+    border-bottom-color: var(--inventory-contrast-primary);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

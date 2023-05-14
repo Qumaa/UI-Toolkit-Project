@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20ui%20panel/Inventory%20ui%20panel%20styles.uss?fileID=7433441132597879392&amp;guid=41e0c98d5eeebfe40817bc1b768ec414&amp;type=3#Inventory ui panel styles" />
+    <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20common%20styles.uss?fileID=7433441132597879392&amp;guid=1d8c92ea9b8ca56428f0aa47d6c12cad&amp;type=3#Inventory common styles" />
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement name="header" class="header">
+            <ui:VisualElement name="tabs-container" class="rounded-borders tabs-container" />
+            <ui:VisualElement name="search-container" class="rounded-borders search-container">
+                <ui:TextField picking-mode="Ignore" text="Search items..." name="search-field" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="inventory-ui-container" class="rounded-borders inventory-ui-container">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="inventory-ui-scroll" class="inventory-ui-scroll" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

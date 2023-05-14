@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20cell/Inventory%20cell%20styles.uss?fileID=7433441132597879392&amp;guid=0718d660f659bbf45a35f9824ecbed2e&amp;type=3#Inventory cell styles" />
+    <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20common%20styles.uss?fileID=7433441132597879392&amp;guid=1d8c92ea9b8ca56428f0aa47d6c12cad&amp;type=3#Inventory common styles" />
+    <ui:VisualElement class="cell-root inventory-text">
+        <ui:Label text="Name" display-tooltip-when-elided="true" name="cell-name-label" class="cell-name-label inventory-text-background" />
+        <ui:VisualElement name="cell-icon-container" class="cell-icon-container" style="width: 128px; height: 128px;" />
+        <ui:Label text="0" display-tooltip-when-elided="true" name="cell-quantity-label" class="cell-quantiy-label inventory-text-background" />
+    </ui:VisualElement>
+</ui:UXML>

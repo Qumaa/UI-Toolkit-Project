@@ -1,0 +1,10 @@
+@import url("/Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss");
+
+:root {
+    --inventory-text-color: rgb(153, 88, 42);
+    --inventory-background-primary: rgb(255, 230, 167);
+    --inventory-background-secondary: rgb(187, 148, 87);
+    --inventory-contrast-primary: rgb(67, 40, 24);
+    --inventory-contrast-secondary: rgb(111, 29, 27);
+    --inventory-text-size: 22px;
+}

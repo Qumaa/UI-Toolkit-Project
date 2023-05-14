@@ -1,0 +1,28 @@
+.preview-root {
+    background-color: var(--inventory-background-secondary);
+    flex-grow: 1;
+}
+
+.preview-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.preview-image {
+    width: 256px;
+    height: 256px;
+}
+
+.preview {
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.info {
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20styles.uss?fileID=7433441132597879392&amp;guid=949841dae021bb646b26c4f2e457439c&amp;type=3#Inventory styles" />
+    <ui:VisualElement name="inventory-container" class="inventory-container">
+        <ui:VisualElement name="preview-panel-container" class="inventory-preview-panel inventory-panel" />
+        <ui:VisualElement name="ui-panel-container" class="inventory-ui-panel inventory-panel" />
+    </ui:VisualElement>
+</ui:UXML>
