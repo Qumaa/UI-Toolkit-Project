@@ -1,0 +1,53 @@
+.background {
+    background-image: url('project://database/Assets/Project/Inventory%20ui%20files/Icons/cell.png?fileID=2800000&guid=223c37b9752dcbf49b389b6bfe383c66&type=3#cell');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.unity-text-element {
+}
+
+.unity-button {
+}
+
+.marginCell {
+    padding-right: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.active {
+    background-image: url('project://database/Assets/Project/Inventory%20ui%20files/Icons/cell%20selected.png?fileID=2800000&guid=07dc7d70158abe3438ebd49d458eb358&type=3#cell selected');
+}
+
+.settingsIcon {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-image: url('project://database/Assets/Project/Inventory%20ui%20files/Icons/Board.png?fileID=2800000&guid=9820c2569796a7a4fb9932684958cba6&type=3#Board');
+    width: 80px;
+    height: 80px;
+    background-color: rgb(106, 93, 93);
+    visibility: visible;
+    position: absolute;
+    top: 26px;
+}
+
+.armorTAB {
+    background-image: url('project://database/Assets/Project/Images/Armor/Helmet_2.png?fileID=2800000&guid=f25e8becc5a885c498ab9792fe749b09&type=3#Helmet_2');
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.weaponTab {
+    background-image: url('project://database/Assets/Project/Images/Weapons/Pike_1.png?fileID=2800000&guid=2e88de08759252d4e8b70350511db2b3&type=3#Pike_1');
+    background-color: rgba(56, 56, 56, 0);
+}
+
+.foodTab {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Project/Images/Food/Cheese_Plate.png?fileID=2800000&guid=88182d0ace5e3db4583eb87292f5c59a&type=3#Cheese_Plate');
+}
+
+.ingridientsTab {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Project/Images/Tools/Iron_pot.png?fileID=2800000&guid=2f04d1648718adf409a7a53b01864947&type=3#Iron_pot');
+}

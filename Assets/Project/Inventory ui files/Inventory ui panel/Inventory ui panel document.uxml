@@ -2,13 +2,14 @@
     <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20ui%20panel/Inventory%20ui%20panel%20styles.uss?fileID=7433441132597879392&amp;guid=41e0c98d5eeebfe40817bc1b768ec414&amp;type=3#Inventory ui panel styles" />
     <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20common%20styles.uss?fileID=7433441132597879392&amp;guid=1d8c92ea9b8ca56428f0aa47d6c12cad&amp;type=3#Inventory common styles" />
     <ui:VisualElement name="root" class="root">
-        <ui:VisualElement name="header" class="header">
-            <ui:VisualElement name="tabs-container" class="rounded-borders tabs-container" />
-            <ui:VisualElement name="search-container" class="rounded-borders search-container">
-                <ui:TextField picking-mode="Ignore" text="Search items..." name="search-field" />
+        <ui:VisualElement name="header" class="header" style="background-image: url(&apos;project://database/Assets/Project/Inventory%20ui%20files/Icons/Board.png?fileID=2800000&amp;guid=9820c2569796a7a4fb9932684958cba6&amp;type=3#Board&apos;); -unity-background-image-tint-color: rgba(161, 134, 116, 0.67);">
+            <ui:VisualElement name="tabs-container" class="rounded-borders tabs-container" style="-unity-background-image-tint-color: rgb(70, 70, 70); background-color: rgb(0, 0, 0);" />
+            <ui:VisualElement name="search-container" class="rounded-borders search-container" style="flex-direction: row;">
+                <ui:TextField picking-mode="Ignore" text="Search items..." name="search-field" usage-hints="None" class="unity-base-field__label" style="background-image: none; background-color: rgba(255, 242, 242, 0); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: stretch-to-fill; overflow: visible; visibility: visible; display: flex;" />
+                <ui:Button display-tooltip-when-elided="true" name="ButtonSearch" style="background-image: url(&apos;project://database/Assets/Project/Images/mglass.png?fileID=2800000&amp;guid=43033e91e7a1a014686335808bf42d37&amp;type=3#mglass&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="inventory-ui-container" class="rounded-borders inventory-ui-container">
+        <ui:VisualElement name="inventory-ui-container" class="rounded-borders inventory-ui-container" style="background-image: url(&apos;project://database/Assets/Project/Inventory%20ui%20files/Icons/Board.png?fileID=2800000&amp;guid=9820c2569796a7a4fb9932684958cba6&amp;type=3#Board&apos;); -unity-background-image-tint-color: rgba(159, 140, 0, 0.92);">
             <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="inventory-ui-scroll" class="inventory-ui-scroll" />
         </ui:VisualElement>
     </ui:VisualElement>
