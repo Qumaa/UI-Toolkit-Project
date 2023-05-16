@@ -11,10 +11,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Inventory scripts/DemoRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Inventory scripts/InventorySystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Inventory ui files/Inventory cell/InventoryCell.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectId" id="2PgbaQY0XcgcLcl6LPRZAUgRX3z" />
   <component name="ProjectViewState">
@@ -31,7 +36,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -104,6 +109,8 @@
       <workItem from="1683900333861" duration="692000" />
       <workItem from="1683901052831" duration="4278000" />
       <workItem from="1683980648475" duration="4571000" />
+      <workItem from="1684085141663" duration="5711000" />
+      <workItem from="1684175051780" duration="7506000" />
     </task>
     <servers />
   </component>
@@ -114,5 +121,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
