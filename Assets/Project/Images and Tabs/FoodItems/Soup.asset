@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c757fc6334c4b328ccbdfb45e12b184, type: 3}
+  m_Name: Soup
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: 90a571cb73c715b4cb9f097b845cc52c, type: 3}
+  _name: Soup
+  _initialQuantity: 1

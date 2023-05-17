@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c557848d7044109977248d4bfede07, type: 3}
+  m_Name: FoodTab
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: 88182d0ace5e3db4583eb87292f5c59a, type: 3}
+  _name: FoodTab
+  _itemConfigs:
+  - {fileID: 11400000, guid: e9d62751161c72745b554faa92b5185f, type: 2}
+  - {fileID: 11400000, guid: a54a2358e0896d44e9620adf089c1119, type: 2}
+  - {fileID: 11400000, guid: 433da2ff3a506114db04c2a0b02b7d49, type: 2}
+  - {fileID: 11400000, guid: b9033120e2111454fb9dde3b5e52b15b, type: 2}
+  - {fileID: 11400000, guid: 0ad7e437688b04943bbf7faf6b8e1d2b, type: 2}
+  - {fileID: 11400000, guid: d4b9bdcb8aea0a246ad224f8758405d0, type: 2}
+  - {fileID: 11400000, guid: ddc46d2893afa04488add982b06dfd52, type: 2}
+  - {fileID: 11400000, guid: 9c49a4f6f45a5e744b678da2efdb5ec5, type: 2}
+  - {fileID: 11400000, guid: 9491d00c9f23e6a41a95e91a2981f01e, type: 2}
+  - {fileID: 11400000, guid: e29c78d3d8e2164448efb1125c45b889, type: 2}
+  - {fileID: 11400000, guid: c6ee05266c626fa468dc83f18e2b651c, type: 2}
+  - {fileID: 11400000, guid: e5793574967bfa14487cdb12c1306136, type: 2}
+  - {fileID: 11400000, guid: 3650cdca257456c40b36c61762251bcc, type: 2}
+  - {fileID: 11400000, guid: 0fdc66159344fc4428a63a4f16ea0367, type: 2}
+  - {fileID: 11400000, guid: 43007e26024e87a449ef25e6acccda37, type: 2}
+  - {fileID: 11400000, guid: a8c0f4cbe2d98a24eadda0cce6a98224, type: 2}
+  - {fileID: 11400000, guid: 1dc636ec165f71e49a5e6707665a1eb1, type: 2}

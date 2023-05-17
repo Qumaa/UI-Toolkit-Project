@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c557848d7044109977248d4bfede07, type: 3}
+  m_Name: ArmorTab
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: 21fce0b507a822c479242112477a997c, type: 3}
+  _name: ArmorTab
+  _itemConfigs:
+  - {fileID: 11400000, guid: 267e374b2c8309b418eca5adf7ee5b82, type: 2}
+  - {fileID: 11400000, guid: 4fbda8baa7f9ec344899d76aa0e3ab9f, type: 2}
+  - {fileID: 11400000, guid: b9446c945fef2194d9c8afe2de7a4d6d, type: 2}
+  - {fileID: 11400000, guid: d08bc0d1b8f46d64181e5d7d7038951e, type: 2}
