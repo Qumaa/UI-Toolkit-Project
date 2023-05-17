@@ -1,8 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20tab/Inventory%20tab%20syles.uss?fileID=7433441132597879392&amp;guid=4ee5c55a703d49549838b24101a4cb12&amp;type=3#Inventory tab syles" />
     <ui:VisualElement name="CellTab" class="background marginCell active" style="align-items: center; justify-content: center; height: 200px; width: 214px;">
-        <ui:Button display-tooltip-when-elided="true" enable-rich-text="false" focusable="true" tabindex="0" usage-hints="None" name="Button" class="background button-style" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); transition-property: background-image; transition-duration: 0s; transition-timing-function: ease; transition-delay: 0s; position: absolute;">
+        <ui:VisualElement class="button-style">
             <ui:VisualElement name="ICON" class="settingsIcon" />
-        </ui:Button>
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

@@ -52,6 +52,8 @@
 
 .unity-base-field {
     background-image: none;
+    width: 100px;
+    height: 50px;
 }
 
 .unity-base-text-field {
@@ -60,6 +62,7 @@
 
 .unity-text-field {
     background-image: none;
+    font-size: 18px;
 }
 
 .unity-base-field__label > .unity-base-text-field__input {
@@ -70,4 +73,13 @@
     border-top-color: rgba(255, 255, 255, 0);
     border-bottom-color: rgba(255, 255, 255, 0);
     background-color: rgba(255, 255, 255, 0);
+    font-size: 18px;
+}
+
+.searchStyle {
+    background-image: url('project://database/Assets/Project/Images/mglass.png?fileID=2800000&guid=43033e91e7a1a014686335808bf42d37&type=3#mglass');
+    background-color: rgba(255, 255, 255, 0);
+    width: 30px;
+    height: 40px;
+    position: relative;
 }
