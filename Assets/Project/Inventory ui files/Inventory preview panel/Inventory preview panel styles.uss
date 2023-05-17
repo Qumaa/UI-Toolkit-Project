@@ -1,6 +1,8 @@
 .preview-root {
     background-color: var(--inventory-background-secondary);
     flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .preview-padding {
@@ -13,6 +15,7 @@
 .preview-image {
     width: 256px;
     height: 256px;
+    background-image: url('project://database/Assets/Project/Images/Tools/Alchemist_Cooker1.png?fileID=2800000&guid=cde38605e26f3f54ebd4a306269be1cd&type=3#Alchemist_Cooker1');
 }
 
 .preview {
@@ -21,10 +24,13 @@
     flex-grow: 2;
     background-image: url('project://database/Assets/Project/Inventory%20ui%20files/Icons/Board.png?fileID=2800000&guid=9820c2569796a7a4fb9932684958cba6&type=3#Board');
     background-color: rgba(255, 255, 255, 0);
+    width: 500px;
+    height: 700px;
 }
 
 .info {
     align-items: center;
     justify-content: space-around;
     flex-grow: 1;
+    background-image: none;
 }

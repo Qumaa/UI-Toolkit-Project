@@ -1,16 +1,16 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20common%20styles.uss?fileID=7433441132597879392&amp;guid=1d8c92ea9b8ca56428f0aa47d6c12cad&amp;type=3#Inventory common styles" />
     <Style src="project://database/Assets/Project/Inventory%20ui%20files/Inventory%20preview%20panel/Inventory%20preview%20panel%20styles.uss?fileID=7433441132597879392&amp;guid=01210f3a3cbd8254bb0a2c6a0b47fe4d&amp;type=3#Inventory preview panel styles" />
-    <ui:VisualElement name="root" class="rounded-borders preview-root inventory-text" style="height: 720px; justify-content: space-around;">
+    <ui:VisualElement name="root" class="rounded-borders preview-root inventory-text">
         <ui:VisualElement name="preview" class="preview-padding preview">
-            <ui:Image name="preview-image" class="preview-image" style="background-image: url(&apos;project://database/Assets/Project/Images/Food/Cheese_Plate.png?fileID=21300000&amp;guid=88182d0ace5e3db4583eb87292f5c59a&amp;type=3#Cheese_Plate&apos;);" />
+            <ui:Image name="preview-image" class="preview-image" />
         </ui:VisualElement>
-        <ui:VisualElement name="info" class="preview-padding info" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Project/Inventory%20ui%20files/Icons/Board.png?fileID=2800000&amp;guid=9820c2569796a7a4fb9932684958cba6&amp;type=3#Board&apos;); -unity-background-image-tint-color: rgba(255, 141, 255, 0.79); background-color: rgba(255, 255, 255, 0);">
-            <ui:VisualElement name="prewText" style="justify-content: center; align-items: center; background-image: url(&apos;project://database/Assets/Project/Inventory%20ui%20files/Icons/label2.png?fileID=2800000&amp;guid=3d6aa4e7b73d5da48b4b2d8be2dab3d4&amp;type=3#label2&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: column-reverse; background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgb(255, 255, 255); width: auto; height: auto;">
-                <ui:Label text="Sword" display-tooltip-when-elided="true" name="textName" class="nameItems" style="justify-content: center; align-items: center;" />
+        <ui:VisualElement name="info" class="preview-padding info" style="width: 350px; height: 400px;">
+            <ui:VisualElement name="prewText" class="prewSettings">
+                <ui:Label text="Sword" display-tooltip-when-elided="true" name="textName" class="nameItems" />
             </ui:VisualElement>
-            <ui:VisualElement name="prewTextD" style="justify-content: center; align-items: center;">
-                <ui:Label text="231213123" display-tooltip-when-elided="true" name="textDiscription" class="amountItems" style="background-image: url(&apos;project://database/Assets/Project/Inventory%20ui%20files/Icons/label2.png?fileID=2800000&amp;guid=3d6aa4e7b73d5da48b4b2d8be2dab3d4&amp;type=3#label2&apos;); width: auto; height: auto; justify-content: center; align-items: center; white-space: nowrap; position: absolute;" />
+            <ui:VisualElement name="prewTextD" class="prewDiscript">
+                <ui:Label text="mMMECH" display-tooltip-when-elided="true" name="textDiscription" class="amountItems" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>

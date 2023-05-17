@@ -18,7 +18,7 @@
     padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: var(--inventory-contrast-primary);
+    background-color: var(--inventory-background-secondary);
 }
 
 .inventory-preview-panel {

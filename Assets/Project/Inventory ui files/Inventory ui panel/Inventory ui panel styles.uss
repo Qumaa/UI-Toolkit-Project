@@ -6,6 +6,11 @@
 .header {
     flex-direction: row;
     justify-content: flex-start;
+    background-image: none;
+    width: 700px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgba(40, 40, 40, 255);
 }
 
 .tabs-container {
@@ -14,6 +19,8 @@
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-image: url('project://database/Assets/Project/Inventory%20ui%20files/Icons/label3.png?fileID=2800000&guid=e09d24fbccb7cc142a0c987b066beed3&type=3#label3');
+    background-color: rgb(255, 255, 255);
 }
 
 .search-container {
@@ -28,6 +35,8 @@
 
 .inventory-ui-container {
     flex-grow: 1;
+    background-image: url('project://database/Assets/Project/Inventory%20ui%20files/Icons/Board.png?fileID=2800000&guid=9820c2569796a7a4fb9932684958cba6&type=3#Board');
+    width: 700px;
 }
 
 .inventory-ui-scroll {
@@ -55,7 +64,7 @@
 
 .unity-base-field__label > .unity-base-text-field__input {
     background-image: url('project://database/Assets/Project/Inventory%20ui%20files/Icons/label.png?fileID=2800000&guid=a4dff54379300ed4ea2e30cbc2d35e96&type=3#label');
-    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
     border-left-color: rgba(255, 255, 255, 0);
     border-right-color: rgba(255, 255, 255, 0);
     border-top-color: rgba(255, 255, 255, 0);
